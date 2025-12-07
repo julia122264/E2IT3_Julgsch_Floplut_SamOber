@@ -1,6 +1,32 @@
-
-img {
-  width: auto;   
-  height: 100px; 
+body {
+  margin: 0;
+  font-family: Arial;
+  background: white;
+  color: black;
 }
 
+header {
+  background: red;
+  color: white;
+}
+
+.container {
+  margin: 20px;
+}
+
+.form-box {
+  border: 1px solid black;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+}
+
+button {
+  background: red;
+  color: white;
+}
