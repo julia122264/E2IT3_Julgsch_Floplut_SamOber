@@ -29,7 +29,7 @@ body {
     padding: 0;
     background-color: #f9f9f9;
     color: #333;
-}
+}   
 
 a {
     text-decoration: none;
@@ -83,13 +83,6 @@ li {
     padding-left: 20px;
 }
 
-li::before {
-    content: "•";
-    position: absolute;
-    left: 0;
-    color: #d62828;
-    font-size: 22px;
-}
 
 
 hr {
@@ -97,4 +90,10 @@ hr {
     height: 2px;
     background-color: #d62828;
     margin: 20px 0;
+}
+
+table {
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
 }
