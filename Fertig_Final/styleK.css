@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #222;
+}
+#Navigation {
+    background-color: red;
+    padding: 15px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #d62828; 
+    padding: 10px 15px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.Ü2{
+    background-color: red;
+    color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.textfeld{
+    text-align:left ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 75%;
+    height: 50%;
+    padding: 20px;
+    margin: 1px 0;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+}
+
+.textfeldklein{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 7px;
+    margin: 10px 0;
+    border: 1px solid #aaa;
+    
+}
+
+.textfeldÜ{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table {
+    width: 100%;
+    margin-top: 15px;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+tr:hover {
+    background-color: white;
+}
+
+.tabellebody{
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.tabelleheading{
+    background-color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+
+.tabellegeneral{
+    background-color: black;
+    padding: 1px;
+    
+}
+
+.container {
+    max-width: 1100px;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 10px;
+
+
+}
+.container div {
+    background-color: white;
+    padding: 5px;
+}
+.container div.header {
+    grid-area: header;
+    text-align: center;
+    background-color: red;
+}
+.container div.menu {
+    grid-area: menu;
+}
+.container div.content {
+    grid-area: content;
+}
+.container div.footer {
+    grid-area: footer;
+    text-align: center;
+    align-items: center; 
+}
+
+img {
+    max-width:50%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+h1{
+    font-family: Arial, sans-serif;
+}

@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: white;
+    color: black;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #d62828; 
+    padding: 10px 15px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.Ü1 {
+    background-color: red;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin: 0 0 15px 0;
+}
+b{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.textfeld{
+    text-align:left ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #aaa;
+    border-radius: 7px;
+}
+
+.textfeldklein{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 7px;
+    margin: 10px 0;
+    border: 1px solid #aaa;
+    
+}
+
+.textfeldÜ{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    padding: 10px;
+    gap: 20px;
+}
+
+.container div {
+  background-color: lightgray;
+  margin: 10px;
+  padding: 20px;
+  flex-grow: 100px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.einsatzliste {
+    list-style-type: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+.einsatzliste li {
+    background-color: white;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-left: 6px solid red;
+    font-size: 18px;
+}
+img {
+    max-width:50%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+h1{
+    font-family: Arial, sans-serif;
+}

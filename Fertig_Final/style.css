@@ -1,0 +1,218 @@
+
+
+img {
+  width: auto;   
+  height: 100px; 
+}
+
+ 
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 8px 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(even) 
+            background-color: #fafafa
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}   
+
+a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #d62828; 
+    padding: 10px 15px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #a61c1c;
+}
+
+
+img {
+    max-width:50%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+
+h1, h2, h3 {
+    text-align: center;
+    color: #d62828;
+    margin-top: 20px;
+}
+
+
+p {
+    max-width: 800px;
+    margin: 10px auto;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+
+ul {
+    max-width: 800px;
+    margin: 15px auto;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+li {
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 20px;
+}
+
+
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #d62828;
+    margin: 20px 0;
+}
+
+table {
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.jugend {
+    --hauptfarbe: #d62828;
+    --hintergrund: #fff5f5;
+    --kartenfarbe: #ffffff;
+}
+
+
+.jugend body {
+    background-color: var(--hintergrund);
+}
+
+
+.jugend .form-box {
+    background-color: var(--kartenfarbe);
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+
+.jugend .form-group {
+    margin-bottom: 15px;
+}
+
+
+.jugend input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+
+.jugend button {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--hauptfarbe);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.jugend button:hover {
+    background-color: #a61c1c;
+}
+
+/* ===== Aktuelles – Schwarzes Brett ===== */
+
+body.aktuelles {
+    background-color: #f4f4f4;
+}
+
+body.aktuelles .intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 30px;
+}
+
+.board {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.board-item {
+    background-color: white;
+    border-left: 6px solid #d62828;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.board-item h2 {
+    margin-top: 10px;
+    color: #333;
+}
+
+.board-item .datum {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.board-tag {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    color: white;
+}
+
+.board-tag.hinweis {
+    background-color: #444;
+}
+
+.board-tag.einsatz {
+    background-color: #d62828;
+}
+
+.board-tag.info {
+    background-color: #2a6f97;
+}
+
+.hinweis-text {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    margin: 40px 0;
+}
