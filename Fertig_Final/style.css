@@ -100,13 +100,13 @@ table {
 }
 
 .jugend {
-    --hauptfarbe: #d62828;
-    --hintergrund: #fff5f5;
-    --kartenfarbe: #ffffff;
+    --hauptfarbe: red;
+    --hintergrund: white;
+    --kartenfarbe: white;
 }
 
 
-.jugend body {
+body.jugend {
     background-color: var(--hintergrund);
 }
 
